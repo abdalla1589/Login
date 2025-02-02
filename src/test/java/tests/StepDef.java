@@ -20,7 +20,7 @@ public class StepDef{
     @Given("Website is opened")
     public void websiteIsOpened()
     {
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/log");
         loginPage=new LoginPage(driver);
     }
 
